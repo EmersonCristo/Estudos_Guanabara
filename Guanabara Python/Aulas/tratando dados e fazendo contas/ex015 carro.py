@@ -1,0 +1,15 @@
+# Escreva um prog4rama que pergunte a quantidade de Km percorridas por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar. Sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
+
+dias = int(input('Quantos dias o carro ficou alugado? '))
+km = float(input('Quantos KM o carro rodou? '))
+
+# pago = dias * 60
+# pagokm = km * 0.15
+# total = pago + pagokm
+
+# PODEMOS NOVAMENTE MINIMIZAR TUDO ACIMA : 
+
+pago = (dias * 60) + (km * 0.15)
+
+print('O total a pagar é de R${:.2f}'.format(pago))
+
